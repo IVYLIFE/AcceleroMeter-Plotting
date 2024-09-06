@@ -1,9 +1,26 @@
+import VictoryGraph from "./Charts/VictoryGraph";
+
 import BezierLine from "./Charts/BezierLine";
-import AccelerationChart from "./Charts/AccelerationChart";
-import AccelerationChart_Smooth from "./Charts/AccelerationChart_Smooth";
+
+import SensorDataProvider from "./Providers/SensorDataProvider";
+import SensorDataChart from "./Charts/SensorDataChart";
+
+import AccelerometerDataProvider from "./Providers/AccelerometerDataProvider";
+import AccelerometerChart from "./Charts/AccelerometerChart";
+
 
 export {
     BezierLine,
-    AccelerationChart,
-    AccelerationChart_Smooth,
+    
+    // 0.
+    VictoryGraph,
+    
+    // 1.
+    SensorDataProvider,
+    SensorDataChart,
+    
+    // 2.
+    AccelerometerDataProvider,
+    AccelerometerChart,
+
 }

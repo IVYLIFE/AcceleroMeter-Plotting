@@ -1,13 +1,14 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context'
-import { Bezier } from './src/screens'
+import { StyleSheet} from 'react-native'
+import { SafeAreaProvider } from 'react-native-safe-area-context'
+import { Screen0, Screen1, Screen2 } from './src/screens'
 
 const App = () => {
   return (
     <SafeAreaProvider style={styles.appContainer}>
-        {/* <Text>This is App Screen</Text> */}
-        <Bezier />
+      <Screen0/>
+      {/* <Screen1/> */}
+      {/* <Screen2/> */}
     </SafeAreaProvider>
   )
 }
@@ -23,3 +24,6 @@ const styles = StyleSheet.create({
   }
 
 })
+
+
+// "victory-native": "^37.0.3-next.0"
